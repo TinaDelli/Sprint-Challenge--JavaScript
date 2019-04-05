@@ -30,11 +30,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-`.forEach` has to iterate over every item in the array but can manipulate the original array while `.map` doesn't manipulate the original array. 
+`.forEach` has to iterate over every item in the array and can do anything you want inside the callback but can manipulate the original array while `.map` can return a new array which doesn't manipulate the original array.
 
 2. What is the difference between a function and a method?
 
-A function consists of the name of the function, an optional list of parameters and the statemenets inside of the block of code. A method is a special function that has utilizes a function inside of it. 
+A function consists of the name of the function, an optional list of parameters and the statemenets inside of the block of code. A method is a special function that utilizes a function inside of it. 
 
 3. What is closure?
 
@@ -46,7 +46,7 @@ Window Binding is when the "this" keyword is there but isn't referencing anythin
 
 5. Why do we need super() in an extended class?
 
-The super() acts as the call/bind to the new constructor in the extended class. 
+The super() acts as the object.create to the new constructor in the extended class. It tells the parent's constructor to watch the child's attributes vis versa.
 
 ## Project Set up
 
