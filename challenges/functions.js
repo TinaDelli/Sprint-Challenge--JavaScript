@@ -41,7 +41,7 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 // ==== Closures ==== 
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
-// `nestedfunction()` can access `internal` because `nestedFunction()` lives inside of `myFunction` and because of `myFunction()`'s lexical scope that was created, `nestedFunction()` belongs in and has access to `myFunction()'s variables. 
+// `nestedfunction()` can access `internal` because `nestedFunction()` lives inside of `myFunction` and because of `myFunction()`'s lexical scope that was created, `nestedFunction()` belongs in and has access to `myFunction()'s variables and functions declared outside of 'nestedFunction(). 
 // Explanation: 
 
 
